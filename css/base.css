@@ -17,7 +17,9 @@
     --spacing-xl: 1.5rem;
     --spacing-2xl: 2rem;
 
-    --text-cursive: "Satisfy", cursive;
+    
+    --text-cursive:'Italiana', serif;
+        
 
     --text-xs: clamp(0.625rem, 0.5825rem + 0.2094vw, 0.75rem);
     /* 10px - 12px */
@@ -40,7 +42,7 @@
 body {
     background-color: var(--background-primario-claro);
     color: var(--cor-letra-escura);
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: var(--text-base);
 }
 

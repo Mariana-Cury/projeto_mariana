@@ -1,5 +1,10 @@
+.plano_fundo{
+    background-image: url("../images/imagem\ de\ fundo.jpg");
+    background-size: cover;
+    
+}
 .hero-image {
-    background-image: url("../images/WhatsApp\ Image\ 2023-01-15\ at\ 12.47.00.jpeg");
+    background-image: url("../images/banner.jpg");
     height: calc(20rem + 10vh);
     background-position: center;
     background-repeat: no-repeat;
@@ -8,7 +13,6 @@
 }
 
 .logo__branco{
-    
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -45,7 +49,7 @@
 .hero__content video{
     justify-content: left;
     width: 100%;
-    height: 90vh;
+    height: 80vh;
     max-width: 370px;
     object-fit: cover;
     margin: 0 auto;
@@ -60,6 +64,7 @@
     text-align: center;
     margin-inline: auto;
     line-height: 1.15;
+    color: var(--cor-letra-escura);
    
 }
 
@@ -83,6 +88,7 @@
     max-width: 70ch;
     margin-inline: auto;
     font-size: var(--text-lg);
+    color: var(--cor-letra-escura);
 }
 
 .chales__section h2 {
@@ -132,29 +138,3 @@
 .map {
     -webkit-filter: grayscale(100%);
 }
-/*.footer__logo {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    gap: var(--spacing-base);
-    width: 10%;
-    max-width: 1280px;
-    margin-inline: auto;
-    padding-block: var(--spacing-base);
-   }
-.footer__container {
-    background-color: var(--background-escuro);
-    align-items: center;
-  
-}
-.footer__navigation {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--spacing-base);
-    list-style: none;
-}
-.footer__navigation li a {
-    color: var(--cor-letra-clara);
-    font-weight: 500;
-}*/
